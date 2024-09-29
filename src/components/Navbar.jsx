@@ -14,8 +14,8 @@ export default function Navbar() {
   };
 
   return (
-    <div className="text-[#8C3061]">
-      <div className="navbar px-4 md:px-10 fixed bg-[#FFF5CD]">
+    <div className="text-[#34105a]">
+      <div className="navbar px-4 md:px-10 fixed bg-[#E5D9F2]">
         <div className="navbar-start">
           <div className="avatar placeholder">
             <div className="bg-neutral text-neutral-content w-12 rounded-full">
@@ -64,7 +64,7 @@ export default function Navbar() {
             </button>
 
             {isOpen && (
-              <ul className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+              <ul className="right-0  menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-auto p-2 shadow">
                 <li>
                   <Link to={"/"} onClick={closeMenu}>
                     Home
