@@ -17,7 +17,7 @@ export default function Home() {
           <div className="mb-6">
             <h1 className="text-3xl lg:text-4xl font-mono mx-10">
               Hi, my name is
-              <span className="bg-gradient-to-r from-red-500 to-blue-500 text-transparent bg-clip-text">
+              <span className="bg-gradient-to-r from-green-500 to-blue-500 text-transparent bg-clip-text">
                 {" "}
                 Wahyu{" "}
               </span>

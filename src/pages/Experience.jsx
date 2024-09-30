@@ -33,7 +33,7 @@ export default function Experience() {
           {experiences.map((experience, index) => (
             <div
               key={index}
-              className="flex flex-col items-center bg-white shadow-lg rounded-lg p-6"
+              className="flex flex-col bg-white shadow-lg rounded-lg p-6"
             >
               <h3
                 className={`text-xl font-semibold ${
